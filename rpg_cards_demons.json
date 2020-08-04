@@ -1,7 +1,7 @@
 [
   {
     "count": 1,
-    "title": "Dienst Alptraum",
+    "title": "Alptraum",
     "contents": [
       "property | Beschreibung: | Erzeugt entweder einen normalen oder einen übermäßig schlimmen Alptraum bei einem bereits schlafenden Opfer.",
       "rule",
@@ -16,7 +16,7 @@
   },
   {
     "count": 1,
-    "title": "Dienst Bann des Elements",
+    "title": "Bann des Elements",
     "contents": [
       "property | Beschreibung: | Erzeugt eine Bannzone gegen ein Element. Verhindert Eindringen und Entstehen des Elements, hat jedoch keinen Einfluss auf bereits vorhandene Mengen des Elements.",
       "rule",
@@ -35,7 +35,7 @@
     "contents": [
       "property | Beschreibung: | Bereitstellung des Wissens und der geistigen Fertigkeiten des Dämons. ",
       "rule",
-      "property | Auswirkungen: | Zauber des Elements in der Zone +12, eindringende Zauber von außerhalb +7.",
+      "property | Auswirkungen: | Je nach ASP-Aufwand",
       "",
       "property | Kosten: | Zwischen 4 und 17 AsP, je nach Komplexität. (Basiszeit 1 Stunde) Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
       "",
@@ -87,7 +87,7 @@
     "contents": [
       "property | Beschreibung: | Der Dämon bewegt sich zu einem Ort an welchem er zusätzlich gewählte Dienste umsetzen kann.",
       "rule",
-      "property | Auswirkungen: | Ist bereits automatischer Bestandteil von Diebstahl, Suche, Spionage und Transport.",
+      "property | Anmerkung: | Ist bereits automatischer Bestandteil von Diebstahl, Suche, Spionage und Transport.",
       "",
       "property | Kosten: | 1 AsP für die GS des Dämons in Meilen",
       " ",
@@ -103,9 +103,25 @@
     "contents": [
       "property | Beschreibung: | Bindet einen Dämon an einen Ort, einen adäquaten Gegenstand oder an eine Person um die Dauer der Dienstbarkeit zu verlängern.",
       "rule",
-      "property | Auswirkungen: | Zählt nicht ",
+      "property | Anmerkung: | Zählt nicht als Dienst",
       "",
-      "property | Kosten: | 1 AsP für die GS des Dämons in Meilen. Dazu 1W6 Asp oder LeP pro Nacht und bei Bindung an eine Person 1 Punkt Verfall.",
+      "property | Kosten: | 2 ASP für eine Basiszeit von 1 Woche. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe. Dazu 1W6 Asp oder LeP pro Nacht und bei Bindung an eine Person 1 Punkt Verfall.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Diebstahl",
+    "contents": [
+      "property | Beschreibung: | Ein Gegenstand wird gestohlen und ggf. vorher gesucht. ",
+      "rule",
+      "property | Auswirkung: | Sucht ein Objekt sofern der Aufenthaltsort unbekannt ist (siehe Suche) und macht dann einen Diebstahlversuch pro Stunde (Probe auf Diebstahlwert)",
+      "",
+      "property | Kosten: | Wenn der Beschwörer den Aufenthaltsort nicht kennt wie bei dem Dienst Suche, danach 7 AsP pro Stunde die der Diebstahl versucht werden soll.",
       " ",
       ""
     ],
