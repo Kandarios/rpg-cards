@@ -1,0 +1,18 @@
+[
+  {
+    "count": 1,
+    "title": "Umreißen",
+    "contents": [
+      "subtitle | Angriffsaktion +8 +Ansage",
+      "rule",
+      "property | Ansage: | Die Ansage kann eine Finte sein",
+      "property | Abwehr: | Gezieltes Ausweichen, Waffenparade +8, Raufen oder Ringen mit \"Beinarbeit\"",
+      "property | Erfolgsfall: | GE-Probe +TP (Standfest -2, Balance -4, Herausragende Balance -8). Misslingt die Probe -2W6 INI und \"liegend\".",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "fist-2"
+  }
+]

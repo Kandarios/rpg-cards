@@ -1,0 +1,206 @@
+[
+  {
+    "count": 1,
+    "title": "Codex Emeraldus",
+    "contents": [
+      "subtitle | Octavo von 90 Seiten",
+      "rule",
+      "property | Voraussetzungen: | Tulamidya 7, KL 14, Gesteinskunde 5, Magiekunde 7",
+      "property | Lernen: | Lehrmeister Gesteinskunde(5/7), SE Kristallzucht (4), Spezialisierung Gesteinskunde (Edelsteine), Pertomantie",
+      "",
+      "rule ",
+      "",
+      "text | Das einzige in Fachkreisen verfügbare Buch, das die Wirkungen von Edelsteinen auf die (vor allem rituelle) Magie beschreibt. Interessant vor allem wegen der Spekulationen über die Edelsteinzauber der alten Echsenherrscher und alte Artefakte aus Schmucksteinen."
+    ],
+    "tags": [],
+    "color": "DarkRed",
+    "icon": "enlightenment"
+  },
+  {
+    "count": 1,
+    "title": "Codex Dimensionis",
+    "contents": [
+      "subtitle | Quarto von 500 Seiten",
+      "rule",
+      "property | Voraussetzungen: | Bosparano 9, Zhayad 7, KL 14",
+      "property | Lernen: | Invocatio Minor und Maior, Transversalis, Auge des Limbus, Lehrmeister: Dämonisch (gesat) (5/8), Limbus (3/6)",
+      "property | Rekonstruierbar: | Planastrale, Verschwindibus",
+      "",
+      "rule ",
+      "",
+      "text | Anspruchsvolles Übersichtswerk über die jenseitigen und überderischen Existenzebenen, den Limbus und die Nebenwelten der Feen, ihre jeweiligen Bewohner, ihre Wechselwirkungen mit der Welt und mögliche Wege dorthin. Enthält die Grundlagen moderner Sphärentheorie."
+    ],
+    "tags": [],
+    "color": "DarkRed",
+    "icon": "enlightenment"
+  },
+  {
+    "count": 1,
+    "title": "Die Wege ohne Namen",
+    "contents": [
+      "subtitle | 500-seitiger Foliant",
+      "rule",
+      "property | Voraussetzungen: | Bosparano 14, Zelemja 12, Zhayad 10, KL 14, Magiekunde 6",
+      "property | Lernen: | SE Beschwörung (7), SE Dämonisch (gesamt) (5), SE Geisterwesen (5) Lehrmeister: Dämonisch (Thargunitoth) (3/5), Invocatio Minor, Geisterruf, Horriphobus, Nekrophatia, Skelettarius",
+      "",
+      "",
+      "rule ",
+      "",
+      "text | Das verbotene Standardwerk der Schwarzen Kunst, das sich vor allem mit der Nekromantie und dem Kontakt zu den Seelen Verstorbener, aber auch mit der Beschwörung von Dämonen und der Fluchmagie beschäftigt. "
+    ],
+    "tags": [],
+    "color": "DarkRed",
+    "icon": "enlightenment"
+  },
+  {
+    "count": 1,
+    "title": "Schattenumhang",
+    "contents": [
+      "subtitle | Umhang mit Kapuze",
+      "",
+      "rule",
+      "property | Typ: | Semipermanent, je eine Anwendung pro Monat",
+      "property | Auslöser: | Geste",
+      "property | Zauber: |",
+      "property | Umbraporta Schattentür, | Sprung zwischen zwei Schatten, Reichweite 14 Schritt",
+      "property | Ignorantia, | Verschmelzen mit einem Schatten (10 ZfP*)",
+      "rule ",
+      "",
+      "text | Schlichter, nachtschwarzer Umhang mit Kapuze. Bei genauem Hinsehen lassen sich eingestickt in den Stoff verschlungene Linien und Zeichen erkennen. Das Artefakt schützt sich selbst vor Schmutz und Abnutzung."
+    ],
+    "tags": [],
+    "color": "Indigo",
+    "icon": "robe"
+  },
+  {
+    "count": 1,
+    "title": "Eisdorn",
+    "contents": [
+      "subtitle | Magischer Degen",
+      "",
+      "rule",
+      "property | Typ: | Beseelte Waffe",
+      "property | Artefaktseele | Basis LO: 12",
+      "rule ",
+      "",
+      "text | Schmale Klinge aus Meteoreisen. Der prunkvolle Parierkorb wird geziert von bronzenen Eiskristallen und am Knauf des Griffes sitzt ein blassblauer Edelstein.",
+      "text | Eisdorn hat eine eigene Persönlichkeit "
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "katana"
+  },
+  {
+    "count": 1,
+    "title": "Abatroxens Zaubersch",
+    "contents": [
+      "subtitle | Magischer Dietrich",
+      "rule",
+      "property | Typ: | Einmaliger Spruchspeicher, eine Ladung",
+      "property | Auslöser: | Ins Schloss stecken",
+      "property | Zauber: |",
+      "property | Foramen | Öffnet nahezu jedes Schloss ",
+      "rule ",
+      "",
+      "text | Fein gravierter Bartschlüssel aus gehämmertem Zwegengold"
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "boss-key"
+  },
+  {
+    "count": 1,
+    "title": "Schreibfeder",
+    "contents": [
+      "subtitle | Schwarze Schreibfeder",
+      "",
+      "rule",
+      "property | Typ: | Permanentes Artefakt",
+      "property | Auslöser: | \"Feder schreib!\", \"Feder ruh!\"",
+      "rule ",
+      "",
+      "text | Außergewöhnlich schöner Federkiel aus einer Rabenfeder mit Spitze aus Mindorium."
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "feather"
+  },
+  {
+    "count": 1,
+    "title": "Tarnkappe",
+    "contents": [
+      "subtitle | Grauer Hut",
+      "",
+      "rule",
+      "property | Typ: | Einmaliger Spruchspeicher, drei Ladungen",
+      "property | Auslöser: | Aufsetzen",
+      "property | Zauber: |",
+      "property | Visibli | Unsichtbarkeit (6ZfP*)",
+      "rule ",
+      "",
+      "text | Eine fein gearbeitete Kappe aus Elfenbausch, in die silbrige Fäden eingearbeitet wurden. Überaus weich und anschmiegsam."
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "pointy-hat"
+  },
+  {
+    "count": 1,
+    "title": "Elfenstiefel",
+    "contents": [
+      "subtitle | Schuhwerk",
+      "",
+      "rule",
+      "property | Typ: |  Einmaliger Spruchspeicher, drei Ladungen",
+      "property | Auslöser: | \"Schleicht!\"",
+      "property | Zauber: |",
+      "property | Silentium | Unterdrückt alle Geräusche für eine SR",
+      "",
+      "rule ",
+      "",
+      "text | Sehr angenehm sitzende Stiefel aus weichem, hellen Leder. "
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "leather-boot"
+  },
+  {
+    "count": 1,
+    "title": "Trinkhorn",
+    "contents": [
+      "subtitle | Horn mit metallischen Beschlägen",
+      "",
+      "rule",
+      "property | Typ: | Semipermanent, je eine Anwendung pro Woche",
+      "property | Auslöser: | Alkohol bzw etwas nicht-alkoholisches trinken",
+      "property | Zauber: |",
+      "property | Memorans | Behält was in den nächsten 9 SR gelesen oder gehört wird. ",
+      "property | Dichter und Denker | Äußert sich (12-MR)/2 SR nur noch in Reimen.",
+      "rule ",
+      "",
+      "text | Horn eines aventurischen Tieres mit alt wirkenden, verzierten, metallenen Beschlägen."
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "horn-internal"
+  },
+  {
+    "count": 1,
+    "title": "Schlangenweiser",
+    "contents": [
+      "subtitle | Holzkeil",
+      "",
+      "rule",
+      "property | Typ: | Semipermanent, je 7 Anwendungen nach Blutzufuhr",
+      "property | Auslöser: | Öffnen der Kompasdose",
+      "property | Zauber: |",
+      "property | Exposami | Variante außer Sicht",
+      "rule ",
+      "",
+      "text | Handtellergroßes Plättchen in der Form eines Keils. In der mattweißen Oberfläche ist eine schwarze Perle eingelassen."
+    ],
+    "tags": [],
+    "color": "",
+    "icon": "compass"
+  }
+]

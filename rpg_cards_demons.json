@@ -1,0 +1,116 @@
+[
+  {
+    "count": 1,
+    "title": "Dienst Alptraum",
+    "contents": [
+      "property | Beschreibung: | Erzeugt entweder einen normalen oder einen übermäßig schlimmen Alptraum bei einem bereits schlafenden Opfer.",
+      "rule",
+      "property | Alpdruck: | Bei gescheiterter MR-Probe ein Alptraum mit Auswirkungen wie bei Schlafstörung I",
+      "property | Alptraumwelt: | Komplexe und mächtige Traumwelt nach Wunsch des Beherrschers (WdZ S.69)",
+      "property | Kosten: | 7 AsP für einen Alpdruck, 13 AsP für eine Traumwelt pro Opfer",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Dienst Bann des Elements",
+    "contents": [
+      "property | Beschreibung: | Erzeugt eine Bannzone gegen ein Element. Verhindert Eindringen und Entstehen des Elements, hat jedoch keinen Einfluss auf bereits vorhandene Mengen des Elements.",
+      "rule",
+      "property | Auswirkungen: | Zauber des Elements in der Zone +12, eindringende Zauber von außerhalb +7.",
+      "",
+      "property | Kosten: | 11 AsP pro Schritt radius wenn unbeweglich, 19 AsP pro Schritt Radius wenn beweglich. (Basiszeit 1 SR) Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe. ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Beratung",
+    "contents": [
+      "property | Beschreibung: | Bereitstellung des Wissens und der geistigen Fertigkeiten des Dämons. ",
+      "rule",
+      "property | Auswirkungen: | Zauber des Elements in der Zone +12, eindringende Zauber von außerhalb +7.",
+      "",
+      "property | Kosten: | Zwischen 4 und 17 AsP, je nach Komplexität. (Basiszeit 1 Stunde) Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
+      "",
+      "property | Beispiele: | Garadan-Partie 4 AsP, Rätsellösung 6 AsP, Militärischer Ratschlag 9 AsP, Zwietracht säen 12 AsP, Lehrmeister 15 AsP, Geheimes Wissen 17 AsP ",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Bereitst. bes. Fähigkeiten",
+    "contents": [
+      "property | Beschreibung: | Bereitstellung einer bei dem spezifischen Dämon beschriebenen besonderen Fähigkeit. Dies kann entweder einmalig oder über einen Zeitraum aufrechterhalten sein.",
+      "rule",
+      "property | Auswirkungen: | Zauber des Elements in der Zone +12, eindringende Zauber von außerhalb +7.",
+      "",
+      "property | Kosten: | 11 AsP bei einmaliger Nutzung. Bei aufrechterhaltenen Fähigkeiten sind es 11 AsP + 10 AsP für eine Basiszeit von 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
+      "",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Besessenheit",
+    "contents": [
+      "property | Beschreibung: | Der Dämon ergreift Besitz von einem lebenden Opfer oder seltener auch einem Gegenstand.",
+      "rule",
+      "property | Auswirkungen: | Opfer gilt als Besessen nach den Regeln in WdZ S. 250",
+      "",
+      "property | Kosten: | 7 AsP für die Besessenheit + 5 AsP für eine Basiszeit von 1 Stunde. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
+      "",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Bewegung",
+    "contents": [
+      "property | Beschreibung: | Der Dämon bewegt sich zu einem Ort an welchem er zusätzlich gewählte Dienste umsetzen kann.",
+      "rule",
+      "property | Auswirkungen: | Ist bereits automatischer Bestandteil von Diebstahl, Suche, Spionage und Transport.",
+      "",
+      "property | Kosten: | 1 AsP für die GS des Dämons in Meilen",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Bindung",
+    "contents": [
+      "property | Beschreibung: | Bindet einen Dämon an einen Ort, einen adäquaten Gegenstand oder an eine Person um die Dauer der Dienstbarkeit zu verlängern.",
+      "rule",
+      "property | Auswirkungen: | Zählt nicht ",
+      "",
+      "property | Kosten: | 1 AsP für die GS des Dämons in Meilen. Dazu 1W6 Asp oder LeP pro Nacht und bei Bindung an eine Person 1 Punkt Verfall.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  }
+]

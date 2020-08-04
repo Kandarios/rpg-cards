@@ -1,0 +1,34 @@
+[
+  {
+    "count": 1,
+    "title": "Umreißen",
+    "contents": [
+      "subtitle | Angriffsaktion +8 +Ansage",
+      "rule",
+      "property | Ansage: | Die Ansage kann eine Finte sein",
+      "property | Abwehr: | Gezieltes Ausweichen, Waffenparade +8, Raufen oder Ringen mit \"Beinarbeit\"",
+      "property | Erfolgsfall: | GE-Probe +TP (Standfest -2, Balance -4, Herausragende Balance -8). Misslingt die Probe -2W6 INI und \"liegend\".",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "spear-feather"
+  },
+  {
+    "count": 1,
+    "title": "Festnageln",
+    "contents": [
+      "subtitle | Abwehraktion +4",
+      "rule",
+      "property | Ansage: | Kann in dieser und Folgerunden zur Verbesserung von GE und KK Proben verwendet werden.",
+      "property | Abwehr: | Gewöhnliche Parade oder Ausweichen",
+      "property | Erfolgsfall: | Normaler Waffenschaden, Vergleichende GE Probe: Verloren +1W6 SP, Gewonnen steckt fest. Vergleichende KK Probe, Verloren oder Unentschieden: Waffe entrissen und Passierschlag, Gewonnen: Opfer \"liegend\" und \"festgehalten\".",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "spear-feather"
+  }
+]
