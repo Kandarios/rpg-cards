@@ -128,5 +128,115 @@
     "tags": [],
     "color": "black",
     "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Gefolgschaft",
+    "contents": [
+      "property | Beschreibung: | Erhöht die Anzahl verfügbarer Dienste",
+      "rule",
+      "property | Auswirkung: | Lässt sich nur bei gebundenen oder manifestierten Dämonen anwenden. Der Beschwörer erzwingt damit weitere Dienste von dem Dämon. Für jeden zusätzlichen Dienst ist die Kontrollprobe um 5 erschwert. ",
+      "",
+      "property | Kosten: | 6 AsP bei Niederen und 10 AsP bei Gehörnten Dämonen.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Heilung",
+    "contents": [
+      "property | Beschreibung: | Heilt ein Lebewesen",
+      "rule",
+      "property | Auswirkung: | Stellt direkt Lebenspunkte wieder her. Je 7 LeP schließen dabei eine Wunde. Je nach geheilten LeP und Mächtigkeit des Wesens können auch fehlende Körperteile wiederhergestellt werden.",
+      "",
+      "property | Kosten: | 1 AsP pro LeP.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Infektion",
+    "contents": [
+      "property | Beschreibung: | Steckt ein Opfer mit einer Krankheit an oder hebt sie auf.",
+      "rule",
+      "property | Auswirkung: | Ein Dämon mit diesem Dienst kann ein Wesen mit einer ihm bekannten Krankheit anstecken oder eine bestehende Krankheit aufheben. ",
+      "",
+      "property | Kosten: | AsP in Höhe der Krankheitsstufe pro Opfer",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Kampf",
+    "contents": [
+      "property | Beschreibung: | Der Dämon kämpft gegen einen oder mehrere Gegner in Sichtweite",
+      "rule",
+      "property | Auswirkung: | Der Dienst lässt sich nicht mit einer Suche verbinden. Der Beschwörer kann die im Kampf eingesetzten Mittel eingrenzen.",
+      "",
+      "property | Kosten: | 13 AsP pro Gegner oder 49 AsP für beliebig viele Gegner bei einer Basiszeit von 50 KR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Kontrolle über Element",
+    "contents": [
+      "property | Beschreibung: | Der Dämon übt Kontrolle über ein Element aus, er kann es dabei z.B. bewegen oder verformen. ",
+      "rule",
+      "property | Auswirkung: | Man unterscheidet drei Stufen der Kontrolle: leicht (frische Briese, Pflanze reift um einige Tage), mittel (Eisskulptur formen, großes Feuer legen und unterhalten) und schwer (Erdbeben, Sturmflut). Der Dämon kann einen Radius von Hörner x3 (min 3) Schritt des Elements kontrollieren. Im Einzelfall auch bis zu 5 Rechtmeilen bei 5fachen Kosten.",
+      "",
+      "property | Kosten: | 5 AsP (leicht), 11 AsP (mittel), 23 AsP (schwer) bei einer Basiszeit von 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Kontrolle über Wesen",
+    "contents": [
+      "property | Beschreibung: | Der Dämon kontrolliert eine Menge von unter- oder zugeordneten Wesen.",
+      "rule",
+      "property | Auswirkung: | Manche Dämonen haben eine besondere Kontrolle über z.B. Untote oder spezielle Tiere. Diese Kontrolle kann sich der Beschwörer mit diesem Dienst zunutze machen.",
+      "property | Kosten: | 7 AsP + 7 AsP (Basiszeit 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe) für eine Anzahl an Wesen in Höhe des TaW Wesenkontrolle. Mehr oder weniger Wesen reduzieren bzw. erhöhen diese Kosten anteilig. ",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Körperliche Hilfe",
+    "contents": [
+      "property | Beschreibung: | Der Dämon stellt seine speziellen körperlichen Fähigkeiten zur Verfügung",
+      "rule",
+      "property | Auswirkung: | In diesen Dienst fallen körperliche Tätigkeiten wie: Kutsche ziehen, Lasten tragen, Türen öffnen/einreißen oder der Einsatz einer speziellen körperlichen Fähigkeit wie Brandstiftung durch die Feueraura eines Azzitai. Je nach Eigenart kann der Dienst wärtlich oder sinngemäß ausgeführt werden.",
+      "property | Kosten: | 4 AsP + 3 AsP (Basiszeit 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe)",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
   }
 ]
