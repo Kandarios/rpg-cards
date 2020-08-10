@@ -238,5 +238,246 @@
     "tags": [],
     "color": "black",
     "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Lastentransport",
+    "contents": [
+      "property | Beschreibung: | Der Dämon bewegt eine Last zu einem vom beschwörer benannten und bekannten Ort.",
+      "rule",
+      "property | Auswirkung: | Die Last muss für den Dämon angemessen sein und darf ihn in seiner Geschwindigkeit und Bewegeungsfreiheit nicht stark einschränken.",
+      "property | Kosten: | 7 AsP + 2 AsP für eine Strecke in Höhe der GS des Dämons in Meilen",
+      " ",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Manifestation",
+    "contents": [
+      "property | Beschreibung: | Gibt dem Dämon einen festen Anker in der dritten Sphäre",
+      "rule",
+      "property | Auswirkung: | Der längere Verbleib des Dämons in der dritten Sphäre kostet den Beschwörer keine LeP oder AsP. Dafür verliert der Dämon je eine Stufe von profener Resistenz und Paraphysikalität. Außerdem verschwinder der Dämon nicht nach erfüllten Diensten, sondern bleibt manifestiert bis er zerstört oder mit einem Dienst zurückgeschickt wird. Weitere Dienste kosten 10% weniger als normal. (2/3 bei höhere Dämonenbindung)",
+      "property | Kosten: | 10 AsP",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Paktvermittlung",
+    "contents": [
+      "property | Beschreibung: | Der Dämon vermittelt eine Verbindug zu seinem Herren und ermöglicht damit einen Paktschluss. ",
+      "rule",
+      "property | Kosten: | 7 AsP",
+      "",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Schutz",
+    "contents": [
+      "property | Beschreibung: | Der Dämon beschützt seinen Beschwörer vor einem oder mehreren Angreifern",
+      "rule",
+      "property | Auswirkung: | Der Dämon greift bis zu einem gewählten Maximum alle Wesen an, die eine deutliche Intention zeigen den Beschwörer anzugreifen. Dies geschieht so lange bis sich die Angreifer zurückziehen oder ausgeschaltet sind. ",
+      "property | Kosten: | 6 AsP pro Gegner + 2 AsP (Basiszeit 50 KR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe)",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Spionage",
+    "contents": [
+      "property | Beschreibung: | Der Dämon sucht ein Objekt oder eine Person auf und beobachtet es.",
+      "rule",
+      "property | Auswirkung: | Die gesammelten Informationen werden entweder bei der Rückkehr oder eventuell schon während der Spionage mit der Fähigkeit \"Verbindung zum Beschwörer\" berichtet. Die Detailgenauigkeit hängt von dem TaW Spionage ab.",
+      "property | Kosten: | Wie bei einer Suche sofern dem Beschwörer der Aufenthaltsort des Objekts nicht bekannt ist. Danach 7 AsP (Basiszeit 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe)",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Suche",
+    "contents": [
+      "property | Beschreibung: | Der Dämon sucht ein dem Beschwörer bekanntes Objekt, einen Ort oder eine Person.",
+      "rule",
+      "property | Auswirkung: | Die Suche nach etwas dass dem Beschwörer nicht selbst bekannt ist, ist nur mit dem Diesnt \"Suche nach dem Unbekannten\" möglich. Der Suchbereich kann klein (eine Rechtsmeile), groß (9 Rechtsmeilen) oder aventurienweit gewählt werden. Die Entfernung des Suchbereiches kann nah (bis 1 Meile), mittel (bis 10 Meilen) oder fern (mehr als 10 Meilen) sein. Die Dauer liegt im Ermessen des Meisters.",
+      "property | Kosten: | Suchbereich 4/15/62 AsP (klein/groß/aventurienweit) + Distanz 7/17/27 AsP (nah/mittel/fern)"
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Transport einer Person",
+    "contents": [
+      "property | Beschreibung: | Der Dämon transportiert den Beschwörer oder eine benannte Person",
+      "rule",
+      "property | Auswirkung: | Der Transport geschieht auf eine für den Dämon übliche Weise der Fortbewegung. Auch der Transport mehrere Personen gleichzeitig ist möglich. ",
+      "property | Kosten: | 11 AsP bei Anwesenheit des Beschwörer und 19 AsP wenn er nicht dabei ist. Dazu 4 AsP für GS des Dämons in Meilen pro Person. "
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Transport durch Element",
+    "contents": [
+      "property | Beschreibung: | Der Dämon transportiert eine benannte Person durch eine Ausprägung eines Elements",
+      "rule",
+      "property | Auswirkung: | Während des Transports ist die Person völlig von negativen Konsequenzen durch das Element geschützt, sie wird also z.B. nicht verbrennen, ersticken oder erfrieren. ",
+      "property | Kosten: | 12 AsP bei Anwesenheit des Beschwörer und 24 AsP wenn er nicht dabei ist. Dazu 3 AsP für GS des Dämons in Meilen pro Person. "
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Verführung",
+    "contents": [
+      "property | Beschreibung: | Der Dämon nutzt seine äußere Erscheinung oder eine vorgetäuschte Gestalt um ein Opfer zu verführen. ",
+      "rule",
+      "property | Auswirkung: | Der Dämon prüft auf seinen TaW in Betören erschwert um die MR des Opfers (und eventuell weitere Faktoren). Gelingt die Verführung kann der Dämon das Opfer zu allen Handlungen bewegen die nicht das eigene Leben gefährden (TaP* wie beim Imperavi handhaben). Ab einer Woche Verführung sind weitere Dienste gegen das Opfer die gegen MR gehen würden um 10 Punkte erleichtert. ",
+      "property | Kosten: | 7 AsP + 4 AsP pro W6 Tage."
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Vernichtung",
+    "contents": [
+      "property | Beschreibung: | Der Dämon eliminiert ein Opfer.",
+      "rule",
+      "property | Auswirkung: | Der Beschwörer muss das benannte Ziel entweder sehen oder über eine materielle Komponente verfügen. Im zweiten Fall muss der Dienst Suche ebenfalls verwendet werden, damit der Dämon das Opfer aufspüren kann. Der Dämon kämpft bis zum Tod des Opfers oder bis zur eigenen Vernichtung. ",
+      "property | Kosten: | 27 AsP"
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Wache",
+    "contents": [
+      "property | Beschreibung: | Der Dämon bewacht einen Ort.",
+      "rule",
+      "property | Auswirkung: | Der Dämon lässt nur vom Beschwörer namentlich genannte Personen (wenn nicht anders angegeben bis zu 7) passieren. Alle anderen werden angegriffen und versucht zu vertreiben oder zu töten.",
+      "property | Kosten: | 15 AsP (Basiszeit 1 Tag. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe). Bei mehr als 1 Tag muss die Dienstbarkeit entsprechend mit Bindung oder Manifestation verlängert werden."
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Wahnsinn",
+    "contents": [
+      "property | Beschreibung: | Der Dämon treibt ein Opfer in den Wahnsinn.",
+      "rule",
+      "property | Auswirkung: | Je nach gewünschter Auswirkung ist dem Opfer eine modifizierte MR Probe gestattet. Das Opfer erhält entweder Einbildungen (MR +6), Wahnvorstellungen (MR +0) oder Vollkommener Wahnsinn (MR -6)- Bei letzterer Auswirkung ist das Opfer zu keiner normalen Tätigkeit mehr in der Lage. Bei zeitlich begrenzter Dauer wird täglich geprobt, bei permanenter Wirkung nur einmalig zu Beginn.",
+      "property | Kosten: | 7 AsP pro Tag oder 69 AsP für eine permanente Wirkung."
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Warte",
+    "contents": [
+      "property | Beschreibung: | Der Dämon wartet auf den nächsten Dienst",
+      "rule",
+      "property | Auswirkung: | Mit diesem Dienst wird Zeit überbrückt um einen Dienst zu einem späteren Zeitpunkt einzufordern. ",
+      "property | Kosten: | 1 AsP  (Basiszeit 1 Stunde. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe)."
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Zauber",
+    "contents": [
+      "property | Beschreibung: | Der Dämon setzt einen Zauber ein den er beherrscht.",
+      "rule",
+      "property | Auswirkung: | Zauber oder zauberähnliche Fähigkeiten werden nach dem Wunsch des Beschwörers angewendet. ",
+      "property | Kosten: | AsP in Höhe der Kosten des Spuches. pAsP kosten den Beschwörer 20 AsP."
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Zurückschicken",
+    "contents": [
+      "property | Beschreibung: | Der Dämon wird aus seinem Dienst entlassen.",
+      "rule",
+      "property | Auswirkung: | Der Dämon kehrt dahin zurück wo er herkam.",
+      "property | Kosten: | 0 AsP"
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Rechenbeispiele 1",
+    "contents": [
+      "section | Karakil: Transport einer Person",
+      "text | Den Beschwörer von Belhanka nach Kuslik transportieren (100 Meilen, Flugdauer 1,5 Stunden).",
+      "property | Dienstkosten: | BK 9 + 11 + 3 * 6  (3 AsP pro 18 Meilen) = 38 AsP",
+      "fill | 1",
+      "section | Zant: Kampf",
+      "text | Kämpfen für 50 KR",
+      "property | Dienstkosten: | BK 6 + 13 pro Gegner oder 49 für alle Gegner = 19-55 AsP",
+      "fill | 1",
+      "section | Uttara’Vha, Diebstahl",
+      "text | Diebstahl eines Objekts, evtl. mit Suche",
+      "property | Dienstkosten: | BK 2 + 7 pro Diebstahl-Versuch. Dazu wenn nötig z.B. 11 AsP beim Suchbereich einer Rechtsmeile oder 22 AsP für 9 Rechtsmeilen"
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Beschwörung Basics",
+    "contents": [
+      "bullet | Ein Dämon ist standardmäßig nur zu einem Dienst bereit.",
+      "bullet | Die Kosten für jeden Dienst ergeben sich aus den Basiskosten des Dämons + den Dienstkosten",
+      "bullet | Ein Dämon kann ohne Bindung oder Manifestation nur max. einen Tag lang dienen. ",
+      "bullet | Bindung ist nur mithilfe der entsprechenden SF möglich.",
+      "bullet | ZfP* können für bessere Werte des Dämons oder zusätzliche Eigenschaften eingesetzt werden",
+      "section | Wichtiger Effekt von ZfP*:",
+      "bullet | 4 ZfP* pro zusätzlichem Dienst",
+      "bullet | Je 3 ZfP* Kontrolleprobe -1 (bis -7)",
+      "bullet | Je 3 ZfP* Kosten eines Dienstes -10% (bis -50%)",
+      ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
   }
 ]
