@@ -35,11 +35,10 @@
     "contents": [
       "property | Beschreibung: | Bereitstellung des Wissens und der geistigen Fertigkeiten des Dämons. ",
       "rule",
-      "property | Auswirkungen: | Je nach ASP-Aufwand",
+      "property | Auswirkungen: | Je nach ASP-Aufwand (Garadan-Partie 4 AsP, Rätsellösung 6 AsP, Militärischer Ratschlag 9 AsP, Zwietracht säen 12 AsP, Lehrmeister 15 AsP, Geheimes Wissen 17 AsP)",
       "",
       "property | Kosten: | Zwischen 4 und 17 AsP, je nach Komplexität. (Basiszeit 1 Stunde) Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
       "",
-      "property | Beispiele: | Garadan-Partie 4 AsP, Rätsellösung 6 AsP, Militärischer Ratschlag 9 AsP, Zwietracht säen 12 AsP, Lehrmeister 15 AsP, Geheimes Wissen 17 AsP ",
       " ",
       ""
     ],
@@ -51,9 +50,9 @@
     "count": 1,
     "title": "Bereitst. bes. Fähigkeiten",
     "contents": [
-      "property | Beschreibung: | Bereitstellung einer bei dem spezifischen Dämon beschriebenen besonderen Fähigkeit. Dies kann entweder einmalig oder über einen Zeitraum aufrechterhalten sein.",
+      "property | Beschreibung: | Bereitstellung einer bei dem spezifischen Dämon beschriebenen besonderen Fähigkeit. ",
       "rule",
-      "property | Auswirkungen: | Zauber des Elements in der Zone +12, eindringende Zauber von außerhalb +7.",
+      "property | Auswirkungen: | Es wird hierbei zwischen einmaliger (Einsatz Schreckgestalt, Goldprodktion eines Nurumbaal) oder \"permanenter\" Wirkung (Untotenerweckung eines Nephazz) der Fähigkeit entschieden. ",
       "",
       "property | Kosten: | 11 AsP bei einmaliger Nutzung. Bei aufrechterhaltenen Fähigkeiten sind es 11 AsP + 10 AsP für eine Basiszeit von 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe.",
       "",
@@ -230,7 +229,7 @@
     "contents": [
       "property | Beschreibung: | Der Dämon stellt seine speziellen körperlichen Fähigkeiten zur Verfügung",
       "rule",
-      "property | Auswirkung: | In diesen Dienst fallen körperliche Tätigkeiten wie: Kutsche ziehen, Lasten tragen, Türen öffnen/einreißen oder der Einsatz einer speziellen körperlichen Fähigkeit wie Brandstiftung durch die Feueraura eines Azzitai. Je nach Eigenart kann der Dienst wärtlich oder sinngemäß ausgeführt werden.",
+      "property | Auswirkung: | In diesen Dienst fallen körperliche Tätigkeiten wie: Kutsche ziehen, Lasten tragen, Türen öffnen/einreißen oder der Einsatz einer speziellen körperlichen Fähigkeit wie Brandstiftung durch die Feueraura eines Azzitai. Je nach Eigenart kann der Dienst wörtlich oder sinngemäß ausgeführt werden.",
       "property | Kosten: | 4 AsP + 3 AsP (Basiszeit 1 SR. Veränderung der Zeit verdoppelt bzw. halbiert die Kosten pro Stufe)",
       " ",
       ""
@@ -455,7 +454,7 @@
       "fill | 1",
       "section | Uttara’Vha, Diebstahl",
       "text | Diebstahl eines Objekts, evtl. mit Suche",
-      "property | Dienstkosten: | BK 2 + 7 pro Diebstahl-Versuch. Dazu wenn nötig z.B. 11 AsP beim Suchbereich einer Rechtsmeile oder 22 AsP für 9 Rechtsmeilen"
+      "property | Dienstkosten: | BK 2 + 7 pro Diebstahl-Versuch. Dazu wenn nötig z.B. 11 AsP beim Suchbereich einer Rechtsmeile oder 22 AsP für 9 Rechtsmeilen usw."
     ],
     "tags": [],
     "color": "black",
@@ -475,6 +474,26 @@
       "bullet | Je 3 ZfP* Kontrolleprobe -1 (bis -7)",
       "bullet | Je 3 ZfP* Kosten eines Dienstes -10% (bis -50%)",
       ""
+    ],
+    "tags": [],
+    "color": "black",
+    "icon": "pentacle"
+  },
+  {
+    "count": 1,
+    "title": "Rechenbeispiele 2",
+    "contents": [
+      "section | Azzitai: Körperliche Hilfe",
+      "text | Brandstiftung durch dei Fallenaura des Dämons.",
+      "property | Dienstkosten: | BK 16 + 4 + 3 für 1 SR = 23 AsP; 1 Std. = 26 AsP; 8 Std. 32 AsP ",
+      "fill | 1",
+      "section | Difar: Körperliche Hilfe",
+      "text | Überbringen einer Nachricht mit GS 100 (360 km/h)",
+      "property | Dienstkosten: | BK 2 + 4 + 3 für 1 SR = 9 AsP; 1 Std. = 12 AsP; 8 Std. 18 AsP",
+      "fill | 1",
+      "section | Gotongi, Spionage",
+      "text | Beobachten eines Objektes oder Person, ggf. mit Suche. ",
+      "property | Dienstkosten: | BK 3 + 7 für 1 SR, 14 für 1 Std. usw. Dazu wenn nötig z.B. 11 AsP beim Suchbereich einer Rechtsmeile oder 22 AsP für 9 Rechtsmeilen usw."
     ],
     "tags": [],
     "color": "black",
