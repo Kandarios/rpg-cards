@@ -1,13 +1,84 @@
 [
   {
     "count": 1,
-    "title": "Umreißen",
+    "title": "Ausfall",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Befreiungsschlag",
+    "contents": [
+      "subtitle | Angriffsaktion +(4-12) + Ansage",
+      "rule",
+      "property | Beschreibung: | Angriff gegen max. 3 Ziele, verbraucht auch PA",
+      "property | Ansagen: | +4 pro Gegner. Zusätzliche Ansage kann aus Wuchtschlag und Finte kombiniert werden.",
+      "property | Abwehr: | Normale PA von jedem Ziel. Ist die PA nicht erfolgreich, -1W6 INI und zurückgetrieben. Ist Zurückweichen unmöglich +1W6 Schaden.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Betäubungsschlag",
+    "contents": [
+      "subtitle | Angriffsaktion +2/4/8 +Ansage",
+      "rule",
+      "property | Beschreibung: | Stumpfer Schlag zum Betäuben des Gegners",
+      "property | Ansagen: | Ansage kann Wuchtschlag oder Finte sein. Basiserschwernis nach Waffe:",
+      "bullet | +2, Stumpfe Hiebwaffen",
+      "bullet | +4, Andere Hiebwaffen, Raufen",
+      "bullet | +8, Andere mögliche Waffen",
+      "property | Parade: | Normale PA. Werden KO/2 TP(A) erzielt muss dem Opfer eine KO Probe gelingen oder es ist für 1W6 SR bewusstlos. Bei KO TP(A) ist das Opfer direkt bewusstlos.",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Doppelangriff",
+    "contents": [
+      "subtitle | Angriffsaktion +2",
+      "rule",
+      "property | Beschreibung: | Gleichzeitiger (Selbe INI) Angriff mit zwei einhändig geführten Waffen. Nicht mit weiteren Zusatzaktionen kombinierbar. ",
+      "property | Ansagen: | Beide Angriffe +2, keine weiteren Ansagen erlaubt. Bei unterschiedlicher Waffe in der Offhand sogar weitere +4 für die zweite AT (Linkhand reduziert dies auf +1, BK II auf 0).",
+      "property | Abwehr: | Beide Angriffe müssen einzeln pariert werden, Ausnahme: Gezieltes Ausweichen",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Entwaffnen",
     "contents": [
       "subtitle | Angriffsaktion +8 +Ansage",
       "rule",
-      "property | Ansage: | Die Ansage kann eine Finte sein",
-      "property | Abwehr: | Gezieltes Ausweichen, Waffenparade +8, Raufen oder Ringen mit \"Beinarbeit\"",
-      "property | Erfolgsfall: | GE-Probe +TP (Standfest -2, Balance -4, Herausragende Balance -8). Misslingt die Probe -2W6 INI und \"liegend\".",
+      "property | Beschreibung: | Angriff auf den Waffenarm/die Waffe mit dem Ziel zu entwaffnen.",
+      "property | Ansagen: | +8, zusätzliche Ansage kann als Finte und/oder Erschwerung der KK-Probe verwendet werden.",
+      "property | Besonderheit: | Ansage -2 mit dem Kampfstab, -4 mit Zweililien oder Kettenstab, 2H-Waffen nur mit \"Meisterlichem Entwaffnen\" angreifbar.",
+      "property | Abwehr: | Misslingt die PA: Kein Schaden, dafür Probe auf KK +8 (+10 bei \"Meisterlichen Entwaffnen\"). Misslingt die KK Probe ist die Waffe verloren. ",
+      "",
       "",
       ""
     ],
@@ -19,11 +90,175 @@
     "count": 1,
     "title": "Festnageln",
     "contents": [
-      "subtitle | Abwehraktion +4",
+      "subtitle | Angriffsaktion +4 +Ansage",
       "rule",
-      "property | Ansage: | Kann in dieser und Folgerunden zur Verbesserung von GE und KK Proben verwendet werden.",
-      "property | Abwehr: | Gewöhnliche Parade oder Ausweichen",
-      "property | Erfolgsfall: | Normaler Waffenschaden, Vergleichende GE Probe: Verloren +1W6 SP, Gewonnen steckt fest. Vergleichende KK Probe, Verloren oder Unentschieden: Waffe entrissen und Passierschlag, Gewonnen: Opfer \"liegend\" und \"festgehalten\".",
+      "property | Beschreibung: | Gegner auf dem Boden aufspießen. Vebraucht auch die PA. ",
+      "property | Voraussetzung: | Stangenwaffe mit Knebel",
+      "property | Ansagen: | +4, doppelte zusätzliche Ansage als Punkte für die Eigenschaftsproben)",
+      "property | Abwehr: | Normal",
+      "property | Erfolgsfall: | Normaler Waffenschaden, Vergleichende GE Probe: Verloren +1W6 SP, Gewonnen steckt fest. Vergleichende KK Probe, Verloren oder Unentschieden: Waffe entrissen und Passierschlag, Gewonnen: Opfer \"liegend\" und \"festgehalten\". Pro KR Waffenschaden und erneuter KK Vergleich",
+      "",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Finte",
+    "contents": [
+      "subtitle | Angriffsaktion +Ansage",
+      "rule",
+      "property | Beschreibung: | Angriff mit vorheriger Täuschung",
+      "property | Voraussetzung: | BE < 5",
+      "property | Ansagen: | Erschwert direkt die PA des Gegners. Max. TaW der Waffe und AT-Wert. Kombinierbar mit Wuchtschlag und anderen Manövern. +2 beim Führen eines großen Schildes.",
+      "property | Abwehr: | Erschwert um Ansage",
+      "",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Gezielter Stich",
+    "contents": [
+      "subtitle | Angriffsaktion +4 +RS/2 +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | Bekannte verletzliche Stelle vorhanden.",
+      "property | Ansagen: | +4 und RS/2 des Gegners. Zusätzliche Ansage kann eine Finte sein, ggf. +PA-WM eines Schildes",
+      "property | Abwehr: | Misslingt die PA wird die RS ignoriert, Wundschwelle -2, + automatische Wunde",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
+      "",
+      ""
+    ],
+    "tags": [],
+    "color": "maroon",
+    "icon": "swords-emblem"
+  },
+  {
+    "count": 1,
+    "title": "Ausfall (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy) (Copy)",
+    "contents": [
+      "subtitle | Angriffsaktion (+4) +Ansage",
+      "rule",
+      "property | Beschreibung: | Bis KO Attacken ohne Umwandlung, der Gegner muss parieren und zurückweichen.",
+      "property | Voraussetzung: | BE < 5, INI > Gegner",
+      "property | Ansagen: | +4 beim Einleiten. Finten oder Wuchtschläge bis max. +4. Abschluss: Niederwerfen, Hammerschlag, Gez. Stich, Todesstoß",
+      "property | Abwehr: | Umwandeln mit +4, wenn nicht möglich +8 (Def. Kampfstil hilft). Zusätzlich +4 ohne FA Schritt.",
+      "property | Ende: | AT misslungen, Gez. Ausweichen +2, Glü. PA, KO erreicht, Kein Zurückweichen möglich (PA +4), Verteidiger bleibt stehen (MU +4+Treffer und PA +4). Bei Fall 1-4 -1W6 INI und Passierschlag gegen Angreifer",
       "",
       ""
     ],
